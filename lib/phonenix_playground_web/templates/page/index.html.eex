@@ -1,0 +1,15 @@
+<section class="phx-hero">
+  <h1><%= gettext "Phoenix Playground ", name: "Phoenix" %></h1>
+  <p>Peace of mind from prototype to production</p>
+</section>
+
+<section class="row">
+  <article class="column">
+    <h2>Resources</h2>
+    <ul>
+      <li>
+        <a href="<%= Routes.post_path(@conn, :index) %>">Post</a>
+      </li>
+    </ul>
+  </article>
+</section>
