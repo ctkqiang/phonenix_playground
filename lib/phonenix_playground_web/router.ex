@@ -16,7 +16,7 @@ defmodule PhonenixPlaygroundWeb.Router do
   scope "/", PhonenixPlaygroundWeb do
     pipe_through :browser
 
-    get "/", PageController, :index
+    get "/", PostController, :index
 
     resources"/post", PostController
   end

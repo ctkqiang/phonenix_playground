@@ -1,11 +1,13 @@
-<h1>Listing Posts</h1>
-
+<nav class="navbar sticky-top navbar-light bg-light">
+  <a class="navbar-brand" href="#">Phoenix Playground</a>
+</nav>
+</br>
+</br>
 <table>
   <thead>
     <tr>
       <th>Title</th>
-      <th>Body</th>
-
+      <th>Content</th>
       <th></th>
     </tr>
   </thead>
@@ -25,4 +27,4 @@
   </tbody>
 </table>
 
-<span><%= link "New Post", to: Routes.post_path(@conn, :new) %></span>
+<span class="btn btn-dark"><%= link "New Post", to: Routes.post_path(@conn, :new) %></span>
