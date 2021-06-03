@@ -14,5 +14,5 @@
 
 </ul>
 
-<span><%= link "Edit", to: Routes.post_path(@conn, :edit, @post) %></span>
-<span><%= link "Back", to: Routes.post_path(@conn, :index) %></span>
+<span class="btn btn-light"><%= link "Edit", to: Routes.post_path(@conn, :edit, @post) %></span>
+<span class="btn btn-light"><%= link "Back", to: Routes.post_path(@conn, :index) %></span>

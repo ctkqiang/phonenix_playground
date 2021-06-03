@@ -12,8 +12,5 @@
   <%= label f, :body %>
   <%= textarea f, :body %>
   <%= error_tag f, :body %>
-
-  <div>
-    <%= submit "Save" %>
-  </div>
+  <span class="btn btn-light"><%= submit "Save", class: "btn btn-light" %></span>
 <% end %>
